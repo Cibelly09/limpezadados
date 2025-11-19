@@ -34,7 +34,7 @@ print(df.info())
 print(df.head())
 
 # ============================================================
-# 3. Função genérica para gráficos de barras
+# 3. Gráficos de barras
 # ============================================================
 
 def save_barplot(series, title, filename, rotation=45):
@@ -53,7 +53,7 @@ def save_barplot(series, title, filename, rotation=45):
     plt.close()
 
 # ============================================================
-# 4. Geração dos gráficos descritivos
+# 4. Gráficos descritivos
 # ============================================================
 
 print("\nGerando gráficos...")
@@ -96,4 +96,5 @@ save_barplot(
 
 print("\n===== GRÁFICOS GERADOS COM SUCESSO! =====")
 print("Arquivos PNG foram salvos na pasta local.")
+
 
