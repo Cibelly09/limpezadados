@@ -11,7 +11,7 @@ Análises profissionais utilizando tratamento de dados, métricas e visualizaç�
 
 ## 🎯 Objetivo Geral
 
-Este projeto tem como objetivo realizar a limpeza, padronização e análise visual de um conjunto de dados, garantindo qualidade, consistência e geração de insights claros para uso em portfólios, cases e estudos analíticos.
+Este projeto tem como objetivo realizar a limpeza, padronização e análise visual de um conjunto de dados reduzidos contendo informações de eleitores com deficiência, garantindo qualidade, consistência e geração de insights claros para uso em portfólios, cases e estudos analíticos.
 
 </div>
 
@@ -22,22 +22,22 @@ Este projeto tem como objetivo realizar a limpeza, padronização e análise vis
 # 1️⃣ Limpeza e Preparação dos Dados
 
 ## 🧹 Objetivo  
-Garantir que a base estivesse estruturada, coerente e pronta para análises estatísticas e criação de visualizações.
+Organizar e estruturar a base `perfil_eleitor_red.csv`, garantindo que os dados estivessem consistentes, padronizados e prontos para análises estatísticas e criação de gráficos.
 
 <br>
 
 ## 📌 Etapas Realizadas  
-Tratamento de valores ausentes  
-Padronização de tipos de dados  
-Correção de inconsistências textuais e categóricas  
-Criação de novas variáveis úteis para análise  
-Remoção de colunas desnecessárias  
-Normalização e organização final dos dados  
+
+✔️ Remoção de linhas nulas  
+✔️ Padronização textual (uppercase)  
+✔️ Remoção de categorias inválidas  
+✔️ Verificação estrutural da base  
+✔️ Preparação final para análises  
 
 <br>
 
 ## 📈 Resultado  
-Base final limpa e pronta para análises, com consistência estrutural e sem ruídos que comprometam interpretações.
+Uma base **limpa, padronizada e confiável** para análises descritivas e criação de visualizações.
 
 </div>
 
@@ -48,22 +48,35 @@ Base final limpa e pronta para análises, com consistência estrutural e sem ru�
 # 2️⃣ Análises e Visualizações
 
 ## 📊 Tipos de Gráficos Utilizados  
-Histogramas  
-Gráficos de barras  
-Distribuições comparativas  
-Gráficos de linha  
-Gráficos de dispersão  
+Gráficos de barras (matplotlib)
 
 <br>
 
 ## 📝 Breve Descrição  
-As visualizações foram construídas para identificar padrões, variações e tendências dentro da base tratada.  
-Cada gráfico foi gerado automaticamente mantendo clareza visual e padronização estética.
+As visualizações foram construídas para destacar padrões demográficos dentro da base de eleitores PCD.  
+Cada gráfico foi gerado automaticamente com o código final unificado.
 
 <br>
 
-## 🖼️ Espaço Reservado  
-(Imagens dos gráficos serão adicionadas futuramente)
+## 🖼️ Visualizações Geradas
+
+### 📌 Distribuição por Gênero  
+<img src="grafico_genero.png" width="500">
+
+### 📌 Distribuição por Faixa Etária  
+<img src="grafico_faixa_etaria.png" width="500">
+
+### 📌 Distribuição por Raça/Cor  
+<img src="grafico_raca.png" width="500">
+
+### 📌 Distribuição por Escolaridade  
+<img src="grafico_escolaridade.png" width="500">
+
+### 📌 Distribuição por Estado Civil  
+<img src="grafico_estado_civil.png" width="500">
+
+### 📌 Distribuição por Estado (UF)  
+<img src="grafico_uf.png" width="500">
 
 </div>
 
@@ -71,13 +84,14 @@ Cada gráfico foi gerado automaticamente mantendo clareza visual e padronizaçã
 
 <div align="center">
 
-# 3️⃣ Principais Processos do Código  
+# 3️⃣ Principais Processos Executados no Código  
 
-Leitura e carregamento da base de dados  
-Limpeza completa e padronização das variáveis  
-Criação de métricas e variáveis auxiliares  
-Geração automatizada dos gráficos  
-Exportação de outputs e imagens  
+✔️ Leitura e carregamento da base  
+✔️ Limpeza e padronização dos dados  
+✔️ Ajustes textuais  
+✔️ Filtragem de valores inválidos  
+✔️ Geração automatizada dos gráficos  
+✔️ Exportação das imagens em PNG  
 
 </div>
 
@@ -91,7 +105,6 @@ Python
 Pandas  
 NumPy  
 Matplotlib  
-Seaborn  
 Jupyter Notebook  
 
 </div>
@@ -104,5 +117,3 @@ Jupyter Notebook
 Cibelly Viegas — 2025  
 
 </div>
-
-
