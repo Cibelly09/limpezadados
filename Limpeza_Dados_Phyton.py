@@ -1,11 +1,6 @@
 
 
 # -*- coding: utf-8 -*-
-"""
-Script completo para limpeza da base 'perfil_eleitor_red.csv'
-e geração dos gráficos descritivos.
-Compatível com ambientes sem seaborn e sem plotly.
-"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -101,3 +96,4 @@ save_barplot(
 
 print("\n===== GRÁFICOS GERADOS COM SUCESSO! =====")
 print("Arquivos PNG foram salvos na pasta local.")
+
