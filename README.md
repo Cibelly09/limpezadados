@@ -11,7 +11,8 @@ Análises profissionais utilizando tratamento de dados, métricas e visualizaç�
 
 ## 🎯 Objetivo Geral
 
-Este projeto tem como objetivo realizar a limpeza, padronização e análise visual de um conjunto de dados reduzidos contendo informações de eleitores com deficiência, garantindo qualidade, consistência e geração de insights claros para uso em portfólios, cases e estudos analíticos.
+Este projeto tem como objetivo realizar a limpeza, padronização e análise visual de um conjunto de dados contendo informações de eleitores com deficiência.  
+O processo abrange tratamento da base, organização, padronização e geração automática de gráficos descritivos, garantindo qualidade e clareza analítica.
 
 </div>
 
@@ -22,22 +23,22 @@ Este projeto tem como objetivo realizar a limpeza, padronização e análise vis
 # 1️⃣ Limpeza e Preparação dos Dados
 
 ## 🧹 Objetivo  
-Organizar e estruturar a base `perfil_eleitor_red.csv`, garantindo que os dados estivessem consistentes, padronizados e prontos para análises estatísticas e criação de gráficos.
+Estruturar a base `perfil_eleitor_red.csv` garantindo consistência, padronização e remoção de ruídos, preparando-a para análises estatísticas.
 
 <br>
 
 ## 📌 Etapas Realizadas  
 
-✔️ Remoção de linhas nulas  
+✔️ Remoção de valores nulos  
 ✔️ Padronização textual (uppercase)  
 ✔️ Remoção de categorias inválidas  
-✔️ Verificação estrutural da base  
-✔️ Preparação final para análises  
+✔️ Organização das variáveis  
+✔️ Preparação final para análises descritivas  
 
 <br>
 
 ## 📈 Resultado  
-Uma base **limpa, padronizada e confiável** para análises descritivas e criação de visualizações.
+Uma base **limpa, confiável e pronta** para análises e visualizações profissionais.
 
 </div>
 
@@ -48,35 +49,43 @@ Uma base **limpa, padronizada e confiável** para análises descritivas e criaç
 # 2️⃣ Análises e Visualizações
 
 ## 📊 Tipos de Gráficos Utilizados  
-Gráficos de barras (matplotlib)
-
-<br>
-
-## 📝 Breve Descrição  
-As visualizações foram construídas para destacar padrões demográficos dentro da base de eleitores PCD.  
-Cada gráfico foi gerado automaticamente com o código final unificado.
+Gráficos de barras criados com **matplotlib**, respeitando boas práticas de clareza visual.
 
 <br>
 
 ## 🖼️ Visualizações Geradas
 
+Cada gráfico abaixo foi gerado automaticamente pelo script final deste projeto.
+
+---
+
 ### 📌 Distribuição por Gênero  
-<img src="grafico_genero.png" width="500">
+<img src="imgs/grafico_genero.png" width="500">
+
+---
 
 ### 📌 Distribuição por Faixa Etária  
-<img src="grafico_faixa_etaria.png" width="500">
+<img src="imgs/grafico_faixa_etaria.png" width="500">
+
+---
 
 ### 📌 Distribuição por Raça/Cor  
-<img src="grafico_raca.png" width="500">
+<img src="imgs/grafico_raca.png" width="500">
+
+---
 
 ### 📌 Distribuição por Escolaridade  
-<img src="grafico_escolaridade.png" width="500">
+<img src="imgs/grafico_escolaridade.png" width="500">
+
+---
 
 ### 📌 Distribuição por Estado Civil  
-<img src="grafico_estado_civil.png" width="500">
+<img src="imgs/grafico_estado_civil.png" width="500">
+
+---
 
 ### 📌 Distribuição por Estado (UF)  
-<img src="grafico_uf.png" width="500">
+<img src="imgs/grafico_uf.png" width="500">
 
 </div>
 
@@ -84,14 +93,14 @@ Cada gráfico foi gerado automaticamente com o código final unificado.
 
 <div align="center">
 
-# 3️⃣ Principais Processos Executados no Código  
+# 3️⃣ Principais Processos Executados  
 
-✔️ Leitura e carregamento da base  
-✔️ Limpeza e padronização dos dados  
-✔️ Ajustes textuais  
-✔️ Filtragem de valores inválidos  
-✔️ Geração automatizada dos gráficos  
-✔️ Exportação das imagens em PNG  
+✔️ Leitura da base reduzida  
+✔️ Padronização e limpeza completa  
+✔️ Remoção de inconsistências  
+✔️ Análises descritivas  
+✔️ Geração automatizada de gráficos  
+✔️ Exportação em PNG para uso no README  
 
 </div>
 
@@ -101,11 +110,13 @@ Cada gráfico foi gerado automaticamente com o código final unificado.
 
 # 4️⃣ Tecnologias Utilizadas  
 
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Jupyter Notebook  
+| Tecnologia | Aplicação |
+|-----------|-----------|
+| **Python** | Linguagem principal do projeto |
+| **Pandas** | Manipulação e limpeza de dados |
+| **NumPy** | Operações auxiliares |
+| **Matplotlib** | Criação dos gráficos |
+| **Jupyter Notebook / VSCode** | Execução e documentação |
 
 </div>
 
@@ -117,3 +128,4 @@ Jupyter Notebook
 Cibelly Viegas — 2025  
 
 </div>
+
