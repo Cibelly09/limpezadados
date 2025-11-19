@@ -1,115 +1,108 @@
 <div align="center">
 
-# 🧼📊 Projeto Python — Limpeza, Preparação e Visualização de Dados  
-**Eleitores com Deficiência • Análise Exploratória e Gráficos**
-
-<br>
-
-### 🔍 Objetivo Geral
-Criar um pipeline completo em Python para limpar os dados, tratar inconsistências e gerar visualizações claras sobre o perfil de eleitores com deficiência no Brasil.
+# 🐍✨ Projeto em Python — Limpeza, Preparação e Visualização de Dados  
+Análises profissionais utilizando tratamento de dados, métricas e visualizações em Python.
 
 </div>
 
 ---
 
-<br>
-
 <div align="center">
 
-# 1. 🧹 Limpeza e Preparação dos Dados
+## 🎯 Objetivo Geral
+
+Este projeto tem como objetivo realizar a limpeza, padronização e análise visual de um conjunto de dados, garantindo qualidade, consistência e geração de insights claros para uso em portfólios, cases e estudos analíticos.
 
 </div>
-
-### 🎯 Objetivo
-Garantir que apenas registros válidos, completos e consistentes sejam utilizados nas análises.
-
-### 🛠️ Etapas realizadas
-- Remoção de valores ausentes em variáveis principais  
-- Exclusão de categorias inválidas (ex: *“Não informado”*)  
-- Padronização de textos para caixa alta  
-- Normalização de estruturas de dados  
-- Seleção das colunas relevantes  
-- Criação de subconjuntos para análises específicas  
-
-### 📌 Resultado
-Dataset limpo, padronizado e pronto para análises estatísticas e visuais.
 
 ---
 
-<br>
-
 <div align="center">
 
-# 2. 📈 Visualizações Criadas
+# 1️⃣ Limpeza e Preparação dos Dados
+
+## 🧹 Objetivo  
+Garantir que a base estivesse estruturada, coerente e pronta para análises estatísticas e criação de visualizações.
+
+<br>
+
+## 📌 Etapas Realizadas  
+Tratamento de valores ausentes  
+Padronização de tipos de dados  
+Correção de inconsistências textuais e categóricas  
+Criação de novas variáveis úteis para análise  
+Remoção de colunas desnecessárias  
+Normalização e organização final dos dados  
+
+<br>
+
+## 📈 Resultado  
+Base final limpa e pronta para análises, com consistência estrutural e sem ruídos que comprometam interpretações.
 
 </div>
-
-### 🎨 Gráficos desenvolvidos
-
-#### 🔵 Distribuição por Gênero  
-Gráfico de contagem comparando categorias de gênero.
-
-#### 🟠 Distribuição por Faixa Etária  
-Eixo categórico ordenado manualmente para correta interpretação.
-
-#### 🟣 Raça — Gráfico de Pizza  
-Exibe o percentual de participação por grupo racial.
-
-#### 🟢 Proporção de Eleitores com Deficiência por Estado  
-Cálculo da proporção e exibição em gráfico de linha com rótulos.
-
-> Caso queira deixar o README ainda mais completo, **é possível gerar e inserir as imagens dos gráficos** diretamente aqui. Me peça que eu te dou o passo-a-passo para salvar e enviar.
 
 ---
 
-<br>
-
 <div align="center">
 
-# 3. 📊 Principais Processos do Código
+# 2️⃣ Análises e Visualizações
+
+## 📊 Tipos de Gráficos Utilizados  
+Histogramas  
+Gráficos de barras  
+Distribuições comparativas  
+Gráficos de linha  
+Gráficos de dispersão  
+
+<br>
+
+## 📝 Breve Descrição  
+As visualizações foram construídas para identificar padrões, variações e tendências dentro da base tratada.  
+Cada gráfico foi gerado automaticamente mantendo clareza visual e padronização estética.
+
+<br>
+
+## 🖼️ Espaço Reservado  
+(Imagens dos gráficos serão adicionadas futuramente)
 
 </div>
-
-### 🔧 Passos executados no script
-- Carregamento da base Excel  
-- Seleção das colunas relevantes  
-- Tratamento de valores inválidos  
-- Normalização de texto  
-- Construção dos principais gráficos  
-- Geração de métricas e proporções por estado  
 
 ---
 
-<br>
-
 <div align="center">
 
-# 🔧 Tecnologias Utilizadas
+# 3️⃣ Principais Processos do Código  
+
+Leitura e carregamento da base de dados  
+Limpeza completa e padronização das variáveis  
+Criação de métricas e variáveis auxiliares  
+Geração automatizada dos gráficos  
+Exportação de outputs e imagens  
 
 </div>
 
-<div align="center">
-
-| Tecnologia | Descrição |
-|-----------|-----------|
-| 🐍 **Python** | Linguagem principal utilizada |
-| 🧮 **Pandas** | Processamento e limpeza dos dados |
-| 🔢 **NumPy** | Operações matemáticas |
-| 📊 **Matplotlib** | Gráficos estáticos |
-| 🌈 **Seaborn** | Visualizações estatísticas |
-| 📈 **Plotly** | Gráficos interativos |
-
-</div>
-
-<br>
+---
 
 <div align="center">
 
-# ✍️ Autoria
+# 4️⃣ Tecnologias Utilizadas  
 
-Desenvolvido por **Cibelly Viegas**  
-📫 *cibelly.viegas@gmail.com*  
-🔗 [LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)  
+Python  
+Pandas  
+NumPy  
+Matplotlib  
+Seaborn  
+Jupyter Notebook  
 
 </div>
+
+---
+
+<div align="center">
+
+# ✍️ Autoria  
+Cibelly Viegas — 2025  
+
+</div>
+
 
