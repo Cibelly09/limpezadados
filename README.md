@@ -1,93 +1,115 @@
 <div align="center">
 
-# 🐍 Análise e Limpeza de Dados — Python
-
-Processo completo de preparação, padronização e exploração visual dos dados do eleitorado brasileiro, com foco em pessoas com deficiência.
+# 🧼📊 Projeto Python — Limpeza, Preparação e Visualização de Dados  
+**Eleitores com Deficiência • Análise Exploratória e Gráficos**
 
 <br>
 
+### 🔍 Objetivo Geral
+Criar um pipeline completo em Python para limpar os dados, tratar inconsistências e gerar visualizações claras sobre o perfil de eleitores com deficiência no Brasil.
+
+</div>
+
 ---
 
-## 🧹 1 · Limpeza e Preparação dos Dados
+<br>
 
-### Objetivo
-Garantir que apenas registros válidos, completos e consistentes sejam utilizados nas análises posteriores.
+<div align="center">
 
-### Etapas realizadas
-Remoção de valores ausentes nas variáveis principais  
-Exclusão de categorias inválidas como “Não informado”  
-Padronização de textos para caixa alta  
-Seleção das variáveis relevantes  
-UF, deficiência, raça, escolaridade, faixa etária, estado civil e gênero  
+# 1. 🧹 Limpeza e Preparação dos Dados
 
-### Resultado
+</div>
+
+### 🎯 Objetivo
+Garantir que apenas registros válidos, completos e consistentes sejam utilizados nas análises.
+
+### 🛠️ Etapas realizadas
+- Remoção de valores ausentes em variáveis principais  
+- Exclusão de categorias inválidas (ex: *“Não informado”*)  
+- Padronização de textos para caixa alta  
+- Normalização de estruturas de dados  
+- Seleção das colunas relevantes  
+- Criação de subconjuntos para análises específicas  
+
+### 📌 Resultado
 Dataset limpo, padronizado e pronto para análises estatísticas e visuais.
 
+---
+
 <br>
+
+<div align="center">
+
+# 2. 📈 Visualizações Criadas
+
+</div>
+
+### 🎨 Gráficos desenvolvidos
+
+#### 🔵 Distribuição por Gênero  
+Gráfico de contagem comparando categorias de gênero.
+
+#### 🟠 Distribuição por Faixa Etária  
+Eixo categórico ordenado manualmente para correta interpretação.
+
+#### 🟣 Raça — Gráfico de Pizza  
+Exibe o percentual de participação por grupo racial.
+
+#### 🟢 Proporção de Eleitores com Deficiência por Estado  
+Cálculo da proporção e exibição em gráfico de linha com rótulos.
+
+> Caso queira deixar o README ainda mais completo, **é possível gerar e inserir as imagens dos gráficos** diretamente aqui. Me peça que eu te dou o passo-a-passo para salvar e enviar.
 
 ---
 
-## 🧮 2 · Transformações e Organização
-
-### Descrição
-Criação de subconjuntos de dados para análises específicas, como:
-
-• Comparação entre eleitorado geral × eleitorado com deficiência  
-• Preparação da base para análises de perfil (ex.: ACM)  
-• Normalização de strings e reorganização de categorias  
-
 <br>
+
+<div align="center">
+
+# 3. 📊 Principais Processos do Código
+
+</div>
+
+### 🔧 Passos executados no script
+- Carregamento da base Excel  
+- Seleção das colunas relevantes  
+- Tratamento de valores inválidos  
+- Normalização de texto  
+- Construção dos principais gráficos  
+- Geração de métricas e proporções por estado  
 
 ---
 
-## 🎨 3 · Visualizações Construídas
+<br>
 
-### Gráficos incluídos no projeto
+<div align="center">
 
-🟦 **Distribuição por Gênero**  
-Representa a contagem de eleitores por categoria de gênero.
+# 🔧 Tecnologias Utilizadas
 
-🟧 **Distribuição por Faixa Etária**  
-Eixo ordenado manualmente para melhor leitura.
+</div>
 
-🟪 **Raça — Gráfico de Pizza**  
-Participação percentual de cada grupo racial.
+<div align="center">
 
-🟩 **Proporção de Eleitores com Deficiência por Estado**  
-Gráfico de linha com rótulos exibindo porcentagens de cada UF.
+| Tecnologia | Descrição |
+|-----------|-----------|
+| 🐍 **Python** | Linguagem principal utilizada |
+| 🧮 **Pandas** | Processamento e limpeza dos dados |
+| 🔢 **NumPy** | Operações matemáticas |
+| 📊 **Matplotlib** | Gráficos estáticos |
+| 🌈 **Seaborn** | Visualizações estatísticas |
+| 📈 **Plotly** | Gráficos interativos |
+
+</div>
 
 <br>
 
-### Objetivo das Visualizações
-Identificar padrões demográficos, distribuição populacional e diferenças entre grupos.
+<div align="center">
 
-<br>
+# ✍️ Autoria
 
----
-
-## 📂 Estrutura Geral do Script
-
-### Passos executados
-Carregamento da base Excel  
-Seleção de colunas relevantes  
-Tratamento de valores inválidos  
-Normalização de texto  
-Construção dos principais gráficos  
-Geração de metricas e proporções por estado  
-
-<br>
-
----
-
-## 🛠️ Tecnologias Utilizadas
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-Plotly  
-
-<br><br>
+Desenvolvido por **Cibelly Viegas**  
+📫 *cibelly.viegas@gmail.com*  
+🔗 [LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)  
 
 </div>
 
