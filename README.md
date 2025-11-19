@@ -1,118 +1,93 @@
 <div align="center">
 
-# 🐍 Projeto Python — Análise do Eleitorado com Deficiência
+# 🐍 Análise e Limpeza de Dados — Python
 
-Análise exploratória completa sobre o perfil dos eleitores com deficiência no Brasil, incluindo limpeza, padronização e visualizações demográficas.
+Processo completo de preparação, padronização e exploração visual dos dados do eleitorado brasileiro, com foco em pessoas com deficiência.
 
-Este projeto fez parte de uma investigação nacional com foco em faixa etária, gênero, raça, escolaridade e proporção de eleitores com deficiência por estado.
-
----
-
-## 🧠 O que este projeto demonstra
-
-Lógica e organização profissional para análises de dados  
-Limpeza e preparação de datasets  
-Padronização e tratamento de valores inconsistentes  
-Construção de métricas e proporções por UF  
-Visualizações profissionais com Python (Seaborn, Matplotlib e Plotly)  
+<br>
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## 🧹 1 · Limpeza e Preparação dos Dados
 
-</div>
-📁 python-eleitores/
-├── analise_eleitores.py
-├── eleitorado.xlsx
-└── README.md
+### Objetivo
+Garantir que apenas registros válidos, completos e consistentes sejam utilizados nas análises posteriores.
 
----
+### Etapas realizadas
+Remoção de valores ausentes nas variáveis principais  
+Exclusão de categorias inválidas como “Não informado”  
+Padronização de textos para caixa alta  
+Seleção das variáveis relevantes  
+UF, deficiência, raça, escolaridade, faixa etária, estado civil e gênero  
 
-<div align="center">
-
-# 1 · 🧹 Limpeza e Preparação dos Dados
-
-</div>
-
-### Objetivo  
-Garantir que apenas registros válidos, completos e consistentes sejam utilizados nas análises.
-
-### Etapas realizadas  
-- Remoção de valores ausentes nas variáveis principais  
-- Exclusão de categorias inválidas (ex: “Não informado”)  
-- Padronização de textos para caixa alta  
-- Seleção das variáveis relevantes:  
-  UF, deficiência, raça, escolaridade, faixa etária, estado civil e gênero
-
-### Resultado  
+### Resultado
 Dataset limpo, padronizado e pronto para análises estatísticas e visuais.
 
----
-
-<div align="center">
-
-# 2 · 📊 Estatísticas Descritivas
-
-</div>
-
-### Análises realizadas
-- Distribuição dos eleitores por gênero  
-- Distribuição por raça  
-- Faixa etária (com ordenação manual)  
-- Escolaridade  
-- Estado civil  
-- Contagem total de eleitores com deficiência  
-- Estrutura geral do dataset (linhas, colunas e tipos)
-
-### Insights obtidos
-- Identificação dos grupos mais representativos  
-- Distribuição sociodemográfica do eleitorado  
-- Base estruturada para gráficos e comparações  
+<br>
 
 ---
 
-<div align="center">
+## 🧮 2 · Transformações e Organização
 
-# 3 · 🎨 Visualizações Construídas
+### Descrição
+Criação de subconjuntos de dados para análises específicas, como:
 
-</div>
+• Comparação entre eleitorado geral × eleitorado com deficiência  
+• Preparação da base para análises de perfil (ex.: ACM)  
+• Normalização de strings e reorganização de categorias  
+
+<br>
+
+---
+
+## 🎨 3 · Visualizações Construídas
 
 ### Gráficos incluídos no projeto
 
-#### 🟦 Distribuição por gênero  
-Gráfico de contagem mostrando proporções entre categorias de gênero.
+🟦 **Distribuição por Gênero**  
+Representa a contagem de eleitores por categoria de gênero.
 
-#### 🟧 Distribuição por faixa etária  
-Eixo categórico ordenado manualmente para melhorar a interpretação.
+🟧 **Distribuição por Faixa Etária**  
+Eixo ordenado manualmente para melhor leitura.
 
-#### 🟪 Raça — Gráfico de Pizza  
-Representando participação percentual de cada grupo racial.
+🟪 **Raça — Gráfico de Pizza**  
+Participação percentual de cada grupo racial.
 
-#### 🟩 Proporção de Eleitores com Deficiência por Estado  
-Cálculo da proporção e exibição em gráfico de linha com rótulos.
+🟩 **Proporção de Eleitores com Deficiência por Estado**  
+Gráfico de linha com rótulos exibindo porcentagens de cada UF.
 
-### Objetivo  
-Criar visualizações claras, profissionais e de fácil interpretação para análise exploratória e tomada de decisão.
+<br>
 
----
+### Objetivo das Visualizações
+Identificar padrões demográficos, distribuição populacional e diferenças entre grupos.
 
-<div align="center">
-
-# 4 · 🧰 Tecnologias Utilizadas
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **Linguagem** | Python |
-| **Manipulação de dados** | Pandas, NumPy |
-| **Visualização** | Seaborn, Matplotlib, Plotly |
-| **Arquivos Excel** | Openpyxl |
+<br>
 
 ---
 
-# ✨ Autoria
+## 📂 Estrutura Geral do Script
 
-**Cibelly Viegas**  
-📧 cibelly.viegas@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/cibelly-viegas-de-souza-0584a8160/)
+### Passos executados
+Carregamento da base Excel  
+Seleção de colunas relevantes  
+Tratamento de valores inválidos  
+Normalização de texto  
+Construção dos principais gráficos  
+Geração de metricas e proporções por estado  
+
+<br>
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+Python  
+Pandas  
+NumPy  
+Matplotlib  
+Seaborn  
+Plotly  
+
+<br><br>
 
 </div>
+
