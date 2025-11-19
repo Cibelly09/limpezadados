@@ -74,11 +74,6 @@ Cada gráfico abaixo foi gerado automaticamente pelo script final deste projeto.
 
 ---
 
-### 📌 Distribuição por Escolaridade  
-<img src="imgs/grafico_escolaridade.png" width="500">
-
----
-
 ### 📌 Distribuição por Estado Civil  
 <img src="imgs/grafico_estado_civil.png" width="500">
 
@@ -128,4 +123,3 @@ Cada gráfico abaixo foi gerado automaticamente pelo script final deste projeto.
 Cibelly Viegas — 2025  
 
 </div>
-
